@@ -129,6 +129,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     font-size: large;
+
 }
 
 .get-my-updates {
@@ -136,11 +137,26 @@ h1 {
     text-align: center;
 }
 
+#subscribe-box {
+    border: 1px solid;
+    padding: 40px;
+    background: rgb(241, 221, 221);
+    width: 30%;
+    margin-left: 450px;
+
+
+}
+
+#subscribe-text {
+    background-color: rgb(255, 59, 59);
+    border: 1px solid;
+}
+
 footer h2 {
     text-align: center;
 }
 
-span {
+#footer-heading {
     color: orange;
 }
 
