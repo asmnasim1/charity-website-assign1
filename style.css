@@ -14,13 +14,13 @@ h1 {
     background-image: url(images/donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 450px;
+    height: 700px;
     text-align: center;
 }
 
 .header-top p {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .header-top a {
@@ -39,4 +39,68 @@ h1 {
 
 .donate-today p {
     text-align: center;
+}
+
+
+.donation-amount {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.net-amount {
+    margin-left: 100px;
+    padding: 30px;
+    border: 2px solid rgb(243, 240, 240);
+    background-color: rgb(232, 237, 241);
+}
+
+#border-color {
+    border-color: red;
+    background-color: rgb(218, 186, 186);
+
+}
+
+
+
+.donate-plan h1 {
+    color: black;
+}
+
+.donate-plan p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.sub-container {
+    width: 80%;
+    padding: 100px;
+    margin-left: 20px;
+    background-color: rgb(214, 229, 241);
+
+}
+
+.sub-container p {
+    text-align: justify;
+}
+
+.bg-color {
+    background-color: rgb(240, 197, 227);
+}
+
+input {
+    width: 50%;
+    margin-left: 25%;
+    padding: 2px;
+    border-style: center;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+
 }
