@@ -94,7 +94,7 @@ h1 {
     background-color: rgb(240, 197, 227);
 }
 
-input {
+.input-amount {
     width: 50%;
     margin-left: 25%;
     padding: 2px;
@@ -103,4 +103,47 @@ input {
     border-left: none;
     border-top: none;
 
+}
+
+.more-about-disaster {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.disaster-response {
+    text-align: center;
+    background-image: url(images/donation15.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 50%
+}
+
+.disaster-response h1 {
+    color: black;
+}
+
+.learn-more {
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+
+.get-my-updates {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+span {
+    color: orange;
+}
+
+footer p {
+    text-align: center;
 }
