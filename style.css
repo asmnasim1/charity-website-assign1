@@ -15,5 +15,28 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
+    text-align: center;
+}
 
+.header-top p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header-top a {
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+
+.heading-tag {
+    color: black;
+    font-size: 40px;
+}
+
+.donate-today p {
+    text-align: center;
 }
